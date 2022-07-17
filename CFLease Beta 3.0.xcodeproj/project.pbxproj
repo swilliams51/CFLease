@@ -7,18 +7,163 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DB23699E2757D28E009FBDA5 /* CFLease_Beta_3_0App.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB23699D2757D28E009FBDA5 /* CFLease_Beta_3_0App.swift */; };
+		DB16FB452795BBF000D16B95 /* TermAmortizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB16FB442795BBF000D16B95 /* TermAmortizationView.swift */; };
+		DB16FB4727960DD300D16B95 /* EscalatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB16FB4627960DD300D16B95 /* EscalatorView.swift */; };
+		DB16FB4927975CAF00D16B95 /* PreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB16FB4827975CAF00D16B95 /* PreferencesView.swift */; };
+		DB23699E2757D28E009FBDA5 /*  CFLease_Beta_3_0App.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB23699D2757D28E009FBDA5 /*  CFLease_Beta_3_0App.swift */; };
 		DB2369A02757D28E009FBDA5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB23699F2757D28E009FBDA5 /* ContentView.swift */; };
 		DB2369A22757D28F009FBDA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB2369A12757D28F009FBDA5 /* Assets.xcassets */; };
 		DB2369A52757D28F009FBDA5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB2369A42757D28F009FBDA5 /* Preview Assets.xcassets */; };
+		DB2369AE2757D34B009FBDA5 /* Amortizations3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2369AD2757D34B009FBDA5 /* Amortizations3.swift */; };
+		DB2369B02757D375009FBDA5 /* Cashflow3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2369AF2757D375009FBDA5 /* Cashflow3.swift */; };
+		DB2369B22757D394009FBDA5 /* DataModel3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2369B12757D394009FBDA5 /* DataModel3.swift */; };
+		DB2369B42757D3AD009FBDA5 /* Dates3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2369B32757D3AD009FBDA5 /* Dates3.swift */; };
+		DB2369B82757D3FC009FBDA5 /* Enums3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2369B72757D3FC009FBDA5 /* Enums3.swift */; };
+		DB2369BA2757D446009FBDA5 /* Boolean.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2369B92757D446009FBDA5 /* Boolean.swift */; };
+		DB2369BC2757D486009FBDA5 /* FileManager3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2369BB2757D486009FBDA5 /* FileManager3.swift */; };
+		DB2369BE2757D4AA009FBDA5 /* Globals3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2369BD2757D4AA009FBDA5 /* Globals3.swift */; };
+		DB2369C22757D524009FBDA5 /* Lease3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2369C12757D524009FBDA5 /* Lease3.swift */; };
+		DB2369C52757D569009FBDA5 /* Group3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2369C42757D569009FBDA5 /* Group3.swift */; };
+		DB2369C72757D591009FBDA5 /* Groups3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2369C62757D591009FBDA5 /* Groups3.swift */; };
+		DB2369C92757D5C2009FBDA5 /* Payments3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2369C82757D5C2009FBDA5 /* Payments3.swift */; };
+		DB2369CB2757D5F7009FBDA5 /* Resets3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2369CA2757D5F7009FBDA5 /* Resets3.swift */; };
+		DB2369CD2757D61C009FBDA5 /* Structures3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2369CC2757D61C009FBDA5 /* Structures3.swift */; };
+		DB2369CF2757D63D009FBDA5 /* Targeting3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2369CE2757D63D009FBDA5 /* Targeting3.swift */; };
+		DB2369D12757D665009FBDA5 /* Math3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2369D02757D665009FBDA5 /* Math3.swift */; };
+		DB2369D32757D688009FBDA5 /* Modifications3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2369D22757D688009FBDA5 /* Modifications3.swift */; };
+		DB2369D52757D6DC009FBDA5 /* Classes3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2369D42757D6DC009FBDA5 /* Classes3.swift */; };
+		DB2369D72757D6F6009FBDA5 /* ArrayFx.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2369D62757D6F6009FBDA5 /* ArrayFx.swift */; };
+		DB2369DD2757D767009FBDA5 /* Validations3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2369DC2757D767009FBDA5 /* Validations3.swift */; };
+		DB2369E92757DE26009FBDA5 /* PaymentGroupsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2369E82757DE26009FBDA5 /* PaymentGroupsView.swift */; };
+		DB2369EB2757DE4A009FBDA5 /* OneGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2369EA2757DE4A009FBDA5 /* OneGroupView.swift */; };
+		DB2369F02757DEBE009FBDA5 /* FilesSaveAsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2369EF2757DEBE009FBDA5 /* FilesSaveAsView.swift */; };
+		DB2369F22757DEF9009FBDA5 /* SlideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2369F12757DEF9009FBDA5 /* SlideMenuView.swift */; };
+		DB2369F42757DF2F009FBDA5 /* FileOpenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2369F32757DF2F009FBDA5 /* FileOpenView.swift */; };
+		DB2369F62757DF47009FBDA5 /* ChopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2369F52757DF47009FBDA5 /* ChopView.swift */; };
+		DB2369F82757DF6C009FBDA5 /* PurchaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2369F72757DF6C009FBDA5 /* PurchaseView.swift */; };
+		DB2369FE275928A9009FBDA5 /* Data3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2369FD275928A9009FBDA5 /* Data3.swift */; };
+		DB2A731427F6391B00D16EC3 /* IndexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2A731327F6391A00D16EC3 /* IndexView.swift */; };
+		DB2A731627F8BD6A00D16EC3 /* LeaseBalanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2A731527F8BD6A00D16EC3 /* LeaseBalanceView.swift */; };
+		DB2A733627FF62A000D16EC3 /* LeaseBalanceReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2A733527FF62A000D16EC3 /* LeaseBalanceReport.swift */; };
+		DB4C9246280F350D00895E42 /* LeaseDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4C9245280F350D00895E42 /* LeaseDocument.swift */; };
+		DB8F1EB127809F1B00434B94 /* LesseePaidFeeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8F1EB027809F1B00434B94 /* LesseePaidFeeView.swift */; };
+		DB8F1ED52785F33B00434B94 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8F1ED42785F33B00434B94 /* Color.swift */; };
+		DB8F1ED92787534000434B94 /* Tabular.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8F1ED82787534000434B94 /* Tabular.swift */; };
+		DB8F1EDB2787608D00434B94 /* DayCountReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8F1EDA2787608D00434B94 /* DayCountReport.swift */; };
+		DBA6BC8527ADA6AC00629191 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA6BC8427ADA6AC00629191 /* String.swift */; };
+		DBA6BC8727ADA7C000629191 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA6BC8627ADA7C000629191 /* Date.swift */; };
+		DBA6BC8927ADA84900629191 /* Decimal.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA6BC8827ADA84900629191 /* Decimal.swift */; };
+		DBA6BC8B27ADA8FC00629191 /* Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA6BC8A27ADA8FC00629191 /* Integer.swift */; };
+		DBA6BC8D27ADA95E00629191 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA6BC8C27ADA95E00629191 /* Double.swift */; };
+		DBA6BC9327AEC1C500629191 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBA6BC9227AEC1C500629191 /* LaunchScreen.storyboard */; };
+		DBA6BC9527AED01A00629191 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA6BC9427AED01A00629191 /* LaunchView.swift */; };
+		DBA6BCB327B166B400629191 /* AverageLives.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA6BCB227B166B400629191 /* AverageLives.swift */; };
+		DBA6BCB527B183CC00629191 /* AverageLifeReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA6BCB427B183CC00629191 /* AverageLifeReport.swift */; };
+		DBA6BD7027BEAB5500629191 /* Help.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA6BD6F27BEAB5500629191 /* Help.swift */; };
+		DBA6BD7327BEABAF00629191 /* PopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA6BD7227BEABAF00629191 /* PopoverView.swift */; };
+		DBA6BD8F27C692A700629191 /* CashflowReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA6BD8E27C692A700629191 /* CashflowReport.swift */; };
+		DBA6BD9327C9385A00629191 /* AmortizationReportsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA6BD9227C9385A00629191 /* AmortizationReportsView.swift */; };
+		DBAF8E47275D07F0001C3E71 /* FormatFx.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAF8E46275D07F0001C3E71 /* FormatFx.swift */; };
+		DBAF8E4A275D0895001C3E71 /* DayCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAF8E49275D0895001C3E71 /* DayCountView.swift */; };
+		DBAF8E4C275FE7D9001C3E71 /* ClassFxns.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAF8E4B275FE7D9001C3E71 /* ClassFxns.swift */; };
+		DBAF8E5027615CCF001C3E71 /* PVRentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAF8E4F27615CCF001C3E71 /* PVRentsView.swift */; };
+		DBAF8E522762A32C001C3E71 /* Amortizations.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAF8E512762A32C001C3E71 /* Amortizations.swift */; };
+		DBAF8E54276392EB001C3E71 /* ReportsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAF8E53276392EB001C3E71 /* ReportsView.swift */; };
+		DBAF8E57276397CB001C3E71 /* AmortizationsReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAF8E56276397CB001C3E71 /* AmortizationsReport.swift */; };
+		DBAF8E5927639883001C3E71 /* SummaryReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAF8E5827639883001C3E71 /* SummaryReport.swift */; };
+		DBAF8E5B27678888001C3E71 /* CalculationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAF8E5A27678888001C3E71 /* CalculationsView.swift */; };
+		DBAF8E622767C0B6001C3E71 /* CustomerReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAF8E612767C0B6001C3E71 /* CustomerReport.swift */; };
+		DBAF8E682767F05B001C3E71 /* Summary.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAF8E672767F05B001C3E71 /* Summary.swift */; };
+		DBB9C32827D10BDA00463430 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB9C32727D10BDA00463430 /* AboutView.swift */; };
+		DBDB6EE127E36C7F00D3B730 /* ChangeFactors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDB6EE027E36C7F00D3B730 /* ChangeFactors.swift */; };
+		DBDFB9372773C4BD003BA2F6 /* LeaseMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDFB9362773C4BD003BA2F6 /* LeaseMainView.swift */; };
+		DBDFB955277E196F003BA2F6 /* EarlyBuyoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDFB954277E196F003BA2F6 /* EarlyBuyoutView.swift */; };
+		DBDFB957277F6612003BA2F6 /* PVOfRentsProof.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDFB956277F6612003BA2F6 /* PVOfRentsProof.swift */; };
+		DBECCE6F27E216A7008F0E28 /* MailData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBECCE6E27E216A7008F0E28 /* MailData.swift */; };
+		DBECCE7127E217D7008F0E28 /* MailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBECCE7027E217D7008F0E28 /* MailView.swift */; };
+		DBEEA71227728C2700006035 /* TValuesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEEA71127728C2700006035 /* TValuesView.swift */; };
+		DBEEA7142773838600006035 /* TValuesReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEEA7132773838600006035 /* TValuesReport.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DB23699A2757D28E009FBDA5 /* CFLease Beta 3.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CFLease Beta 3.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB23699D2757D28E009FBDA5 /* CFLease_Beta_3_0App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFLease_Beta_3_0App.swift; sourceTree = "<group>"; };
+		DB16FB442795BBF000D16B95 /* TermAmortizationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermAmortizationView.swift; sourceTree = "<group>"; };
+		DB16FB4627960DD300D16B95 /* EscalatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscalatorView.swift; sourceTree = "<group>"; };
+		DB16FB4827975CAF00D16B95 /* PreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesView.swift; sourceTree = "<group>"; };
+		DB23699A2757D28E009FBDA5 /* cfLease.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cfLease.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB23699D2757D28E009FBDA5 /*  CFLease_Beta_3_0App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " CFLease_Beta_3_0App.swift"; sourceTree = "<group>"; };
 		DB23699F2757D28E009FBDA5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DB2369A12757D28F009FBDA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB2369A42757D28F009FBDA5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DB2369AD2757D34B009FBDA5 /* Amortizations3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amortizations3.swift; sourceTree = "<group>"; };
+		DB2369AF2757D375009FBDA5 /* Cashflow3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cashflow3.swift; sourceTree = "<group>"; };
+		DB2369B12757D394009FBDA5 /* DataModel3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel3.swift; sourceTree = "<group>"; };
+		DB2369B32757D3AD009FBDA5 /* Dates3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dates3.swift; sourceTree = "<group>"; };
+		DB2369B72757D3FC009FBDA5 /* Enums3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums3.swift; sourceTree = "<group>"; };
+		DB2369B92757D446009FBDA5 /* Boolean.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boolean.swift; sourceTree = "<group>"; };
+		DB2369BB2757D486009FBDA5 /* FileManager3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager3.swift; sourceTree = "<group>"; };
+		DB2369BD2757D4AA009FBDA5 /* Globals3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globals3.swift; sourceTree = "<group>"; };
+		DB2369C12757D524009FBDA5 /* Lease3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lease3.swift; sourceTree = "<group>"; };
+		DB2369C42757D569009FBDA5 /* Group3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group3.swift; sourceTree = "<group>"; };
+		DB2369C62757D591009FBDA5 /* Groups3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Groups3.swift; sourceTree = "<group>"; };
+		DB2369C82757D5C2009FBDA5 /* Payments3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payments3.swift; sourceTree = "<group>"; };
+		DB2369CA2757D5F7009FBDA5 /* Resets3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resets3.swift; sourceTree = "<group>"; };
+		DB2369CC2757D61C009FBDA5 /* Structures3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structures3.swift; sourceTree = "<group>"; };
+		DB2369CE2757D63D009FBDA5 /* Targeting3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Targeting3.swift; sourceTree = "<group>"; };
+		DB2369D02757D665009FBDA5 /* Math3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math3.swift; sourceTree = "<group>"; };
+		DB2369D22757D688009FBDA5 /* Modifications3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifications3.swift; sourceTree = "<group>"; };
+		DB2369D42757D6DC009FBDA5 /* Classes3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classes3.swift; sourceTree = "<group>"; };
+		DB2369D62757D6F6009FBDA5 /* ArrayFx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayFx.swift; sourceTree = "<group>"; };
+		DB2369DC2757D767009FBDA5 /* Validations3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validations3.swift; sourceTree = "<group>"; };
+		DB2369E82757DE26009FBDA5 /* PaymentGroupsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentGroupsView.swift; sourceTree = "<group>"; };
+		DB2369EA2757DE4A009FBDA5 /* OneGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneGroupView.swift; sourceTree = "<group>"; };
+		DB2369EF2757DEBE009FBDA5 /* FilesSaveAsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilesSaveAsView.swift; sourceTree = "<group>"; };
+		DB2369F12757DEF9009FBDA5 /* SlideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideMenuView.swift; sourceTree = "<group>"; };
+		DB2369F32757DF2F009FBDA5 /* FileOpenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileOpenView.swift; sourceTree = "<group>"; };
+		DB2369F52757DF47009FBDA5 /* ChopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChopView.swift; sourceTree = "<group>"; };
+		DB2369F72757DF6C009FBDA5 /* PurchaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseView.swift; sourceTree = "<group>"; };
+		DB2369FD275928A9009FBDA5 /* Data3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data3.swift; sourceTree = "<group>"; };
+		DB2A731327F6391A00D16EC3 /* IndexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexView.swift; sourceTree = "<group>"; };
+		DB2A731527F8BD6A00D16EC3 /* LeaseBalanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaseBalanceView.swift; sourceTree = "<group>"; };
+		DB2A733527FF62A000D16EC3 /* LeaseBalanceReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaseBalanceReport.swift; sourceTree = "<group>"; };
+		DB4C9228280F05D200895E42 /* CFLease-Beta-3-0-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "CFLease-Beta-3-0-Info.plist"; sourceTree = SOURCE_ROOT; };
+		DB4C9245280F350D00895E42 /* LeaseDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaseDocument.swift; sourceTree = "<group>"; };
+		DB8F1EB027809F1B00434B94 /* LesseePaidFeeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LesseePaidFeeView.swift; sourceTree = "<group>"; };
+		DB8F1ED42785F33B00434B94 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		DB8F1ED82787534000434B94 /* Tabular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabular.swift; sourceTree = "<group>"; };
+		DB8F1EDA2787608D00434B94 /* DayCountReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayCountReport.swift; sourceTree = "<group>"; };
+		DBA6BC8427ADA6AC00629191 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		DBA6BC8627ADA7C000629191 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		DBA6BC8827ADA84900629191 /* Decimal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decimal.swift; sourceTree = "<group>"; };
+		DBA6BC8A27ADA8FC00629191 /* Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Integer.swift; sourceTree = "<group>"; };
+		DBA6BC8C27ADA95E00629191 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		DBA6BC9227AEC1C500629191 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBA6BC9427AED01A00629191 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
+		DBA6BCB227B166B400629191 /* AverageLives.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AverageLives.swift; sourceTree = "<group>"; };
+		DBA6BCB427B183CC00629191 /* AverageLifeReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AverageLifeReport.swift; sourceTree = "<group>"; };
+		DBA6BD6F27BEAB5500629191 /* Help.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Help.swift; sourceTree = "<group>"; };
+		DBA6BD7227BEABAF00629191 /* PopoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverView.swift; sourceTree = "<group>"; };
+		DBA6BD8E27C692A700629191 /* CashflowReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashflowReport.swift; sourceTree = "<group>"; };
+		DBA6BD9227C9385A00629191 /* AmortizationReportsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmortizationReportsView.swift; sourceTree = "<group>"; };
+		DBAF8E46275D07F0001C3E71 /* FormatFx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatFx.swift; sourceTree = "<group>"; };
+		DBAF8E49275D0895001C3E71 /* DayCountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayCountView.swift; sourceTree = "<group>"; };
+		DBAF8E4B275FE7D9001C3E71 /* ClassFxns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassFxns.swift; sourceTree = "<group>"; };
+		DBAF8E4F27615CCF001C3E71 /* PVRentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PVRentsView.swift; sourceTree = "<group>"; };
+		DBAF8E512762A32C001C3E71 /* Amortizations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amortizations.swift; sourceTree = "<group>"; };
+		DBAF8E53276392EB001C3E71 /* ReportsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsView.swift; sourceTree = "<group>"; };
+		DBAF8E56276397CB001C3E71 /* AmortizationsReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmortizationsReport.swift; sourceTree = "<group>"; };
+		DBAF8E5827639883001C3E71 /* SummaryReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryReport.swift; sourceTree = "<group>"; };
+		DBAF8E5A27678888001C3E71 /* CalculationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationsView.swift; sourceTree = "<group>"; };
+		DBAF8E612767C0B6001C3E71 /* CustomerReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerReport.swift; sourceTree = "<group>"; };
+		DBAF8E672767F05B001C3E71 /* Summary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Summary.swift; sourceTree = "<group>"; };
+		DBB9C32727D10BDA00463430 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		DBDB6EE027E36C7F00D3B730 /* ChangeFactors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeFactors.swift; sourceTree = "<group>"; };
+		DBDFB9362773C4BD003BA2F6 /* LeaseMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaseMainView.swift; sourceTree = "<group>"; };
+		DBDFB954277E196F003BA2F6 /* EarlyBuyoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarlyBuyoutView.swift; sourceTree = "<group>"; };
+		DBDFB956277F6612003BA2F6 /* PVOfRentsProof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PVOfRentsProof.swift; sourceTree = "<group>"; };
+		DBECCE6E27E216A7008F0E28 /* MailData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailData.swift; sourceTree = "<group>"; };
+		DBECCE7027E217D7008F0E28 /* MailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailView.swift; sourceTree = "<group>"; };
+		DBEEA71127728C2700006035 /* TValuesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TValuesView.swift; sourceTree = "<group>"; };
+		DBEEA7132773838600006035 /* TValuesReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TValuesReport.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +188,7 @@
 		DB23699B2757D28E009FBDA5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DB23699A2757D28E009FBDA5 /* CFLease Beta 3.0.app */,
+				DB23699A2757D28E009FBDA5 /* cfLease.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,8 +196,10 @@
 		DB23699C2757D28E009FBDA5 /* CFLease Beta 3.0 */ = {
 			isa = PBXGroup;
 			children = (
-				DB23699D2757D28E009FBDA5 /* CFLease_Beta_3_0App.swift */,
-				DB23699F2757D28E009FBDA5 /* ContentView.swift */,
+				DB4C9228280F05D200895E42 /* CFLease-Beta-3-0-Info.plist */,
+				DBECCE6D27E21683008F0E28 /* Mail */,
+				DB2369AC2757D2BC009FBDA5 /* Views */,
+				DB2369AB2757D2AC009FBDA5 /* Model */,
 				DB2369A12757D28F009FBDA5 /* Assets.xcassets */,
 				DB2369A32757D28F009FBDA5 /* Preview Content */,
 			);
@@ -65,6 +212,173 @@
 				DB2369A42757D28F009FBDA5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DB2369AB2757D2AC009FBDA5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DB2369AD2757D34B009FBDA5 /* Amortizations3.swift */,
+				DBA6BCB227B166B400629191 /* AverageLives.swift */,
+				DB2369AF2757D375009FBDA5 /* Cashflow3.swift */,
+				DB2369D42757D6DC009FBDA5 /* Classes3.swift */,
+				DB2369B12757D394009FBDA5 /* DataModel3.swift */,
+				DB2369B32757D3AD009FBDA5 /* Dates3.swift */,
+				DB2369B72757D3FC009FBDA5 /* Enums3.swift */,
+				DBA6BC8327ADA67F00629191 /* Extensions */,
+				DB2369BB2757D486009FBDA5 /* FileManager3.swift */,
+				DB4C9245280F350D00895E42 /* LeaseDocument.swift */,
+				DB2369BD2757D4AA009FBDA5 /* Globals3.swift */,
+				DBA6BD6F27BEAB5500629191 /* Help.swift */,
+				DB2369C32757D52C009FBDA5 /* Lease Model 3 */,
+				DB2369D02757D665009FBDA5 /* Math3.swift */,
+				DB2369D22757D688009FBDA5 /* Modifications3.swift */,
+				DBAF8E48275D0804001C3E71 /* Reports */,
+				DB2369DC2757D767009FBDA5 /* Validations3.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DB2369AC2757D2BC009FBDA5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DBA6BC9027AEC14700629191 /* Launch */,
+				DB23699D2757D28E009FBDA5 /*  CFLease_Beta_3_0App.swift */,
+				DB23699F2757D28E009FBDA5 /* ContentView.swift */,
+				DBDFB9362773C4BD003BA2F6 /* LeaseMainView.swift */,
+				DB2369E82757DE26009FBDA5 /* PaymentGroupsView.swift */,
+				DB2369EA2757DE4A009FBDA5 /* OneGroupView.swift */,
+				DB16FB442795BBF000D16B95 /* TermAmortizationView.swift */,
+				DB16FB4627960DD300D16B95 /* EscalatorView.swift */,
+				DB2369EE2757DE7A009FBDA5 /* SlideMenu */,
+				DBA6BD7127BEAB8500629191 /* Popovers */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DB2369C32757D52C009FBDA5 /* Lease Model 3 */ = {
+			isa = PBXGroup;
+			children = (
+				DB2369C12757D524009FBDA5 /* Lease3.swift */,
+				DB2369FD275928A9009FBDA5 /* Data3.swift */,
+				DB2369C62757D591009FBDA5 /* Groups3.swift */,
+				DB2369C42757D569009FBDA5 /* Group3.swift */,
+				DB2369C82757D5C2009FBDA5 /* Payments3.swift */,
+				DB2369CA2757D5F7009FBDA5 /* Resets3.swift */,
+				DB2369CC2757D61C009FBDA5 /* Structures3.swift */,
+				DB2369CE2757D63D009FBDA5 /* Targeting3.swift */,
+				DBAF8E4B275FE7D9001C3E71 /* ClassFxns.swift */,
+				DBAF8E512762A32C001C3E71 /* Amortizations.swift */,
+				DBDB6EE027E36C7F00D3B730 /* ChangeFactors.swift */,
+			);
+			path = "Lease Model 3";
+			sourceTree = "<group>";
+		};
+		DB2369EE2757DE7A009FBDA5 /* SlideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				DB2369F12757DEF9009FBDA5 /* SlideMenuView.swift */,
+				DB2369EF2757DEBE009FBDA5 /* FilesSaveAsView.swift */,
+				DB2369F32757DF2F009FBDA5 /* FileOpenView.swift */,
+				DBAF8E49275D0895001C3E71 /* DayCountView.swift */,
+				DB2369F52757DF47009FBDA5 /* ChopView.swift */,
+				DBB9C32727D10BDA00463430 /* AboutView.swift */,
+				DBAF8E5C27678898001C3E71 /* Calculations */,
+				DBAF8E5527639775001C3E71 /* Reports */,
+				DB16FB4827975CAF00D16B95 /* PreferencesView.swift */,
+			);
+			path = SlideMenu;
+			sourceTree = "<group>";
+		};
+		DBA6BC8327ADA67F00629191 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DB2369B92757D446009FBDA5 /* Boolean.swift */,
+				DB8F1ED42785F33B00434B94 /* Color.swift */,
+				DBA6BC8627ADA7C000629191 /* Date.swift */,
+				DBA6BC8827ADA84900629191 /* Decimal.swift */,
+				DBA6BC8C27ADA95E00629191 /* Double.swift */,
+				DBA6BC8A27ADA8FC00629191 /* Integer.swift */,
+				DBA6BC8427ADA6AC00629191 /* String.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DBA6BC9027AEC14700629191 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				DBA6BC9127AEC19300629191 /* Views */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		DBA6BC9127AEC19300629191 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DBA6BC9227AEC1C500629191 /* LaunchScreen.storyboard */,
+				DBA6BC9427AED01A00629191 /* LaunchView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DBA6BD7127BEAB8500629191 /* Popovers */ = {
+			isa = PBXGroup;
+			children = (
+				DBA6BD7227BEABAF00629191 /* PopoverView.swift */,
+			);
+			path = Popovers;
+			sourceTree = "<group>";
+		};
+		DBAF8E48275D0804001C3E71 /* Reports */ = {
+			isa = PBXGroup;
+			children = (
+				DBAF8E672767F05B001C3E71 /* Summary.swift */,
+				DB8F1ED82787534000434B94 /* Tabular.swift */,
+				DB2369D62757D6F6009FBDA5 /* ArrayFx.swift */,
+				DBAF8E46275D07F0001C3E71 /* FormatFx.swift */,
+			);
+			path = Reports;
+			sourceTree = "<group>";
+		};
+		DBAF8E5527639775001C3E71 /* Reports */ = {
+			isa = PBXGroup;
+			children = (
+				DBAF8E53276392EB001C3E71 /* ReportsView.swift */,
+				DBAF8E5827639883001C3E71 /* SummaryReport.swift */,
+				DBA6BD9227C9385A00629191 /* AmortizationReportsView.swift */,
+				DBAF8E56276397CB001C3E71 /* AmortizationsReport.swift */,
+				DBA6BCB427B183CC00629191 /* AverageLifeReport.swift */,
+				DBA6BD8E27C692A700629191 /* CashflowReport.swift */,
+				DB8F1EDA2787608D00434B94 /* DayCountReport.swift */,
+				DBAF8E612767C0B6001C3E71 /* CustomerReport.swift */,
+				DBDFB956277F6612003BA2F6 /* PVOfRentsProof.swift */,
+				DBEEA7132773838600006035 /* TValuesReport.swift */,
+				DB2A733527FF62A000D16EC3 /* LeaseBalanceReport.swift */,
+			);
+			path = Reports;
+			sourceTree = "<group>";
+		};
+		DBAF8E5C27678898001C3E71 /* Calculations */ = {
+			isa = PBXGroup;
+			children = (
+				DBAF8E5A27678888001C3E71 /* CalculationsView.swift */,
+				DB8F1EB027809F1B00434B94 /* LesseePaidFeeView.swift */,
+				DB2369F72757DF6C009FBDA5 /* PurchaseView.swift */,
+				DBAF8E4F27615CCF001C3E71 /* PVRentsView.swift */,
+				DBDFB954277E196F003BA2F6 /* EarlyBuyoutView.swift */,
+				DBEEA71127728C2700006035 /* TValuesView.swift */,
+				DB2A731327F6391A00D16EC3 /* IndexView.swift */,
+				DB2A731527F8BD6A00D16EC3 /* LeaseBalanceView.swift */,
+			);
+			path = Calculations;
+			sourceTree = "<group>";
+		};
+		DBECCE6D27E21683008F0E28 /* Mail */ = {
+			isa = PBXGroup;
+			children = (
+				DBECCE6E27E216A7008F0E28 /* MailData.swift */,
+				DBECCE7027E217D7008F0E28 /* MailView.swift */,
+			);
+			path = Mail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,7 +398,7 @@
 			);
 			name = "CFLease Beta 3.0";
 			productName = "CFLease Beta 3.0";
-			productReference = DB23699A2757D28E009FBDA5 /* CFLease Beta 3.0.app */;
+			productReference = DB23699A2757D28E009FBDA5 /* cfLease.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -125,6 +439,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBA6BC9327AEC1C500629191 /* LaunchScreen.storyboard in Resources */,
 				DB2369A52757D28F009FBDA5 /* Preview Assets.xcassets in Resources */,
 				DB2369A22757D28F009FBDA5 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +452,79 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB2369C52757D569009FBDA5 /* Group3.swift in Sources */,
+				DB2369F82757DF6C009FBDA5 /* PurchaseView.swift in Sources */,
+				DB2369B02757D375009FBDA5 /* Cashflow3.swift in Sources */,
+				DB2369B82757D3FC009FBDA5 /* Enums3.swift in Sources */,
+				DBAF8E4C275FE7D9001C3E71 /* ClassFxns.swift in Sources */,
+				DB2369B42757D3AD009FBDA5 /* Dates3.swift in Sources */,
+				DB2369F62757DF47009FBDA5 /* ChopView.swift in Sources */,
+				DBEEA7142773838600006035 /* TValuesReport.swift in Sources */,
+				DB2369EB2757DE4A009FBDA5 /* OneGroupView.swift in Sources */,
+				DBAF8E54276392EB001C3E71 /* ReportsView.swift in Sources */,
+				DBAF8E5927639883001C3E71 /* SummaryReport.swift in Sources */,
 				DB2369A02757D28E009FBDA5 /* ContentView.swift in Sources */,
-				DB23699E2757D28E009FBDA5 /* CFLease_Beta_3_0App.swift in Sources */,
+				DB2369BA2757D446009FBDA5 /* Boolean.swift in Sources */,
+				DB2369D32757D688009FBDA5 /* Modifications3.swift in Sources */,
+				DB2369E92757DE26009FBDA5 /* PaymentGroupsView.swift in Sources */,
+				DBA6BC8727ADA7C000629191 /* Date.swift in Sources */,
+				DB8F1ED52785F33B00434B94 /* Color.swift in Sources */,
+				DB2369D72757D6F6009FBDA5 /* ArrayFx.swift in Sources */,
+				DBA6BC8B27ADA8FC00629191 /* Integer.swift in Sources */,
+				DB16FB452795BBF000D16B95 /* TermAmortizationView.swift in Sources */,
+				DB8F1ED92787534000434B94 /* Tabular.swift in Sources */,
+				DBDFB955277E196F003BA2F6 /* EarlyBuyoutView.swift in Sources */,
+				DBAF8E622767C0B6001C3E71 /* CustomerReport.swift in Sources */,
+				DB16FB4727960DD300D16B95 /* EscalatorView.swift in Sources */,
+				DB2369DD2757D767009FBDA5 /* Validations3.swift in Sources */,
+				DB2369D12757D665009FBDA5 /* Math3.swift in Sources */,
+				DB4C9246280F350D00895E42 /* LeaseDocument.swift in Sources */,
+				DB2369FE275928A9009FBDA5 /* Data3.swift in Sources */,
+				DB2369F42757DF2F009FBDA5 /* FileOpenView.swift in Sources */,
+				DB2369CD2757D61C009FBDA5 /* Structures3.swift in Sources */,
+				DB2369D52757D6DC009FBDA5 /* Classes3.swift in Sources */,
+				DBEEA71227728C2700006035 /* TValuesView.swift in Sources */,
+				DBAF8E4A275D0895001C3E71 /* DayCountView.swift in Sources */,
+				DBA6BCB527B183CC00629191 /* AverageLifeReport.swift in Sources */,
+				DBAF8E5B27678888001C3E71 /* CalculationsView.swift in Sources */,
+				DBAF8E682767F05B001C3E71 /* Summary.swift in Sources */,
+				DBB9C32827D10BDA00463430 /* AboutView.swift in Sources */,
+				DB2369AE2757D34B009FBDA5 /* Amortizations3.swift in Sources */,
+				DBDB6EE127E36C7F00D3B730 /* ChangeFactors.swift in Sources */,
+				DBA6BC8527ADA6AC00629191 /* String.swift in Sources */,
+				DBA6BD7327BEABAF00629191 /* PopoverView.swift in Sources */,
+				DBECCE7127E217D7008F0E28 /* MailView.swift in Sources */,
+				DB2369BC2757D486009FBDA5 /* FileManager3.swift in Sources */,
+				DB2A733627FF62A000D16EC3 /* LeaseBalanceReport.swift in Sources */,
+				DB8F1EDB2787608D00434B94 /* DayCountReport.swift in Sources */,
+				DB2A731427F6391B00D16EC3 /* IndexView.swift in Sources */,
+				DBAF8E57276397CB001C3E71 /* AmortizationsReport.swift in Sources */,
+				DB8F1EB127809F1B00434B94 /* LesseePaidFeeView.swift in Sources */,
+				DB2369C22757D524009FBDA5 /* Lease3.swift in Sources */,
+				DBA6BD8F27C692A700629191 /* CashflowReport.swift in Sources */,
+				DB2369CF2757D63D009FBDA5 /* Targeting3.swift in Sources */,
+				DB2369BE2757D4AA009FBDA5 /* Globals3.swift in Sources */,
+				DB2369F22757DEF9009FBDA5 /* SlideMenuView.swift in Sources */,
+				DBA6BD7027BEAB5500629191 /* Help.swift in Sources */,
+				DBA6BD9327C9385A00629191 /* AmortizationReportsView.swift in Sources */,
+				DBAF8E5027615CCF001C3E71 /* PVRentsView.swift in Sources */,
+				DBA6BCB327B166B400629191 /* AverageLives.swift in Sources */,
+				DB2369F02757DEBE009FBDA5 /* FilesSaveAsView.swift in Sources */,
+				DBDFB9372773C4BD003BA2F6 /* LeaseMainView.swift in Sources */,
+				DBAF8E47275D07F0001C3E71 /* FormatFx.swift in Sources */,
+				DBDFB957277F6612003BA2F6 /* PVOfRentsProof.swift in Sources */,
+				DB2A731627F8BD6A00D16EC3 /* LeaseBalanceView.swift in Sources */,
+				DB2369C72757D591009FBDA5 /* Groups3.swift in Sources */,
+				DBECCE6F27E216A7008F0E28 /* MailData.swift in Sources */,
+				DBA6BC8927ADA84900629191 /* Decimal.swift in Sources */,
+				DB2369B22757D394009FBDA5 /* DataModel3.swift in Sources */,
+				DB16FB4927975CAF00D16B95 /* PreferencesView.swift in Sources */,
+				DBA6BC9527AED01A00629191 /* LaunchView.swift in Sources */,
+				DB2369CB2757D5F7009FBDA5 /* Resets3.swift in Sources */,
+				DB2369C92757D5C2009FBDA5 /* Payments3.swift in Sources */,
+				DB23699E2757D28E009FBDA5 /*  CFLease_Beta_3_0App.swift in Sources */,
+				DBA6BC8D27ADA95E00629191 /* Double.swift in Sources */,
+				DBAF8E522762A32C001C3E71 /* Amortizations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,15 +652,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CFLease Beta 3.0/Preview Content\"";
-				DEVELOPMENT_TEAM = 6GPUL3CZ32;
+				DEVELOPMENT_TEAM = R2A6TWK69S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CFLease-Beta-3-0-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -282,8 +672,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "cfsoftwaresolutions.CFLease-Beta-3-0";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cfsoftwaresolutions.cflease;
+				PRODUCT_NAME = cfLease;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -295,15 +685,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CFLease Beta 3.0/Preview Content\"";
-				DEVELOPMENT_TEAM = 6GPUL3CZ32;
+				DEVELOPMENT_TEAM = R2A6TWK69S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CFLease-Beta-3-0-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -311,8 +705,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "cfsoftwaresolutions.CFLease-Beta-3-0";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cfsoftwaresolutions.cflease;
+				PRODUCT_NAME = cfLease;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
